@@ -14,7 +14,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "space.muzaitechsols.ride"
+    namespace = "com.sixamtech.hexarideuser"
     compileSdk = 36
 
     compileOptions {
@@ -29,7 +29,7 @@ android {
 
     defaultConfig {
         multiDexEnabled = true
-        applicationId = "space.muzaitechsols.ride"
+        applicationId = "com.sixamtech.hexarideuser"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
         versionCode = flutter.versionCode
